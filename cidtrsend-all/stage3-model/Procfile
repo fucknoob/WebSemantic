@@ -1,0 +1,2 @@
+web: python exampleapp.py
+worker: python runCollectSt3.py 

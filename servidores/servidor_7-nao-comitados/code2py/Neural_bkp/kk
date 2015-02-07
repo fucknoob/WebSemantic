@@ -1,0 +1,379 @@
+Connecting to knowledge cluster....
+Connected.
+SemaIniParser: Lucas Santos interact-need-detector. | igor.moraes | simple-search-ask-aswer
+Get-layout-purpose: simple-search-ask-aswer
+Get-layouts: igor.moraes [] [] simple-search-ask-aswer
+Run-OBJ: cenario-ask-aswer-common
+Collect L: cenario-ask-aswer-common igor.moraes
+Run-OBJ: fz_class_aswk
+Collect L: fz_class_aswk igor.moraes
+Run-OBJ: fz_need_ecomm_ask
+Collect L: fz_need_ecomm_ask igor.moraes
+Layouts-F: [['simple-search-stowrd', 0, False], ['simple-search-start', 0, False], ['simple-search-classificacao', 0, False], ['simple-search-way', 0, False], ['simple-search-need', 0, False], ['simple-search-mean', 0, False], ['simple-search-composicao', 0, False], ['simple-search-refer', 0, False], ['simple-search-project', 0, False], ['simple-search-preditive', 0, False], ['simple-search-reative', 0, False], ['simple-search-learn', 0, False], ['simple-search-find', 0, False], ['simple-search-compare-good', 0, False], ['simple-search-compare-poor', 0, False], ['simple-search-buy-sell-action', 0, False], ['simple-search-stowrd', 0, False], ['interact.need', 0, False], ['interaction.comunic.ask.can', 0, False], ['interact.source.reputacao.certeza', 0, False], ['interact.want', 0, False], ['interact.guess', 0, False], ['interact.can', 0, False], ['interact.info.value', 0, False], ['interaction.have.2', 0, False], ['simple-search-start', 0, False]]
+Layouts-2: [['simple-search-with', 0, False], ['simple-search-filter', 0, False], ['simple-search-condicional', 0, False], ['interact.order', 0, False], ['interact.posse', 0, False], ['interaction.with.2', 0, False], ['state.event.moment', 0, False]]
+Start Identify->pre_process_data->prepare_data():
+Start pre-process->get_ontology()
+lay->get_ontology () run.
+Run prepare_data.
+Data.len: 36 ,result: 1
+End Identify->pre_process_data->prepare_data( <mdLayout.mdLayout instance at 0xf736dc4c> ): Len(s): 1
+Process pre_ontology( 1 )
+Process pre_ontology( 1 ).OK
+Start first level: simple-search-start group: False
+Process line: 1 ,len: 3
+Fz-Gravity-Positons: 1
+RTS:------------
+TOP: ['object']
+++++++++++++++++++
+['Lucas']
+['Santos']
+++++++++++++++++++
+TOP: ['interact.need']
+++++++++++++++++++
+++++++++++++++++++
+TOP: ['simple-need-collect.indicator.rct']
+++++++++++++++++++
+++++++++++++++++++
+RTS(END):------------
+p_lay->get_ontology () OK. [<mdNeural.mdLayer instance at 0x917f86c>]
+To-Get Ontology-3():mxlevel: 0
+Start runlevel: 0 group: False
+end get_ontology-3()============================
+array_return(2-)-> 1
+Collect ractionlines for(2): simple-search-ask-aswer -----
+Collected rct:[ cenario-ask-aswer-common ]
+Collect al for: cenario-ask-aswer-common igor.moraes
+RCT: { [<mdNeural.mdLayer instance at 0x917956c>] }
+Found: 1
+LayersC-1: [<mdNeural.mdLayer instance at 0x917f86c>]
+Ontology.processC: [<mdNeural.mdLayer instance at 0x917f86c>]
+Start ERC(1):
+Start ER: 1 [<mdNeural.mdLayer instance at 0x917f86c>] ------------------------
+Start Call RCT: cenario-ask-aswer-common  ,len buff( 1 )
+Cache:[ cenario-ask-aswer-common ]
+Buffer:[ [<mdNeural.mdLayer instance at 0x917f86c>] ]
+.el: 
+====================
+All-L:len: 1  ,def: [<mdNeural.mdLayer instance at 0x917f86c>]
+RCT->facts( cenario-ask-aswer-common ):
+RUn layer-cd:=================================================================================================================
+Layers FACTS: 1
+[ simple-pesq-fct-id-ask-aswer-interact ]
+NDS:====== [ simple-pesq-fct-id-ask-aswer-interact ]
+---------
+['object']
++++++++++++++++++++++++++++++++++++++
+['$$all$$']
+++++++++++++++++++++++++++++++++++++++
+---------
+---------
+['interact.need']
++++++++++++++++++++++++++++++++++++++
+['$$all$$']
+++++++++++++++++++++++++++++++++++++++
+---------
+==========
+def-L: <mdNeural.mdLayer instance at 0x917906c> ,n: 1
+NDS2:======[  ]
+----------
+['object']
+++++++++++++++
+['Lucas']
+++++++++++++++
+++++++++++++++
+['Santos']
+++++++++++++++
+----------
+----------
+['interact.need']
+----------
+----------
+['simple-need-collect.indicator.rct']
+----------
+===========
+NDS-LEN: 2 =================
+nds[0].owner: simple-pesq-fct-id-ask-aswer-interact
+['object'] <<
+['interact.need'] <<
+======================================
+row_Trans from: ['object'] ,to: ['object']
+NEED: 2  FOUND: 2
+RCT->interface: [] 0 [<mdNeural.mdNeuron instance at 0x9179b6c>, <mdNeural.mdNeuron instance at 0x9179b4c>] ->> [['object'], 'sins-----', [['Lucas'], 'sins-----'], [['Lucas'], 'sins-----'], [['Santos'], 'sins-----'], [['Santos'], 'sins-----'], ['interact.need'], 'sins-----']
+Call Layout-Code from: cenario-ask-aswer-common
+Prepare to call-inter-rtc(2): []
+Prepare to call layouts-code---{ ['cen-ask-aswer-layt'] }
+Collect objects: [] []
+call onto-layout: cen-ask-aswer-layt .........................
+Start compile cenary:----------
+ALiass: ask-aswer-aderency-product-response
+Collected rct:[ ask-aswer-aderency-product-response ]
+Collect al for: ask-aswer-aderency-product-response igor.moraes
+RCT: { [<mdNeural.mdLayer instance at 0x917b9ac>] }
+{ ask-aswer-aderency-product-response }
+len.rcts(O) [ 2 ]
+......................................
+RCT-fnd: ask-aswer-aderency-product-response
+Coll.fact: [<mdNeural.mdDynamicLayerLink instance at 0x917fc4c>, <mdNeural.mdDynamicLayerLink instance at 0x917eacc>, <mdNeural.mdDynamicLayerLink instance at 0x917e76c>]
+Cenario.set.rule->getob(): apps_aderencia_with_cenario
+RCT Ask Call-TO-Process: <mdNeural.mdLayer instance at 0x917b9ac> ask-aswer-aderency-product-response
+Purps: ['interact.need']
+NO_cache: True
+Collect ractionlines for(1): interact.need -----
+Found: 1 -> Ready to start inference-engine:
+Inter -stack executing : 
+ask-aswer-aderency-product-response
+=======================================
+=======================================
+=======================================
+LayersC: [<mdNeural.mdLayer instance at 0x917b9ac>]
+Ontology.processC: [<mdNeural.mdLayer instance at 0x917b9ac>]
+Start ERC(2):
+Start ER.1: 1 ------------------------
+Start Call RCT: ask-aswer-aderency-product-response  ,len buff( 1 )
+Cache:[ ask-aswer-aderency-product-response ]
+Buffer:[ [<mdNeural.mdLayer instance at 0x917b9ac>] ]
+.el: ask-aswer-aderency-product-response
+====================
+All-L:len: 1  ,def: [<mdNeural.mdLayer instance at 0x917b9ac>]
+RCT->facts( ask-aswer-aderency-product-response ):
+RUn layer-cd:=================================================================================================================
+Layers FACTS: 0
+Prepare to call-inter-rtc(1)[ ask-aswer-aderency-product-response ]: []
+Process call lrs len( 1 )
+Enter.to.call.links.CALL: ask-aswer-aderency-product-response
+Identify RCT: filter_collects_pr
+Start Call RCT: filter_collects_pr  ,len buff( 1 )
+Cache:[ filter_collects_pr ]
+Buffer:[ [<mdNeural.mdLayer instance at 0x917b9ac>] ]
+.el: ask-aswer-aderency-product-response
+====================
+All-L:len: 1  ,def: [<mdNeural.mdLayer instance at 0x917b9ac>]
+RCT->facts( filter_collects_pr ):
+RUn layer-cd:=================================================================================================================
+Layers FACTS: 1
+[ apps_collect_s_filterc ]
+NDS:====== [ apps_collect_s_filterc ]
+---------
+['identificador']
++++++++++++++++++++++++++++++++++++++
+['$$all$$']
+++++++++++++++++++++++++++++++++++++++
+---------
+---------
+==========
+def-L: <mdNeural.mdLayer instance at 0x91657ec> ,n: 1
+NDS2:======[ ask-aswer-aderency-product-response ]
+----------
+['purpose']
+++++++++++++++
+['interact.need']
+++++++++++++++
+----------
+----------
+['object']
+++++++++++++++
+['Lucas']
+++++++++++++++
+++++++++++++++
+['Santos']
+++++++++++++++
+----------
+===========
+NDS-LEN: 2 =================
+nds[0].owner: apps_collect_s_filterc
+['identificador'] <<
+['filter'] <<
+======================================
+Run.( vb_filter )
+Params: [ ['$$all$$'] ],[ [''] ],[ ['sugest'] ]
+get_ontology->(2):---
+NEED: 1  FOUND: 0
+Process call lrs len( 1 )
+Enter.to.call.links.CALL: filter_collects_pr
+Identify RCT: fil_get_ids_ow_r
+Start Call RCT: fil_get_ids_ow_r  ,len buff( 1 )
+Cache:[ fil_get_ids_ow_r ]
+Buffer:[ [<mdNeural.mdLayer instance at 0x917b9ac>] ]
+.el: ask-aswer-aderency-product-response
+====================
+All-L:len: 1  ,def: [<mdNeural.mdLayer instance at 0x917b9ac>]
+RCT->facts( fil_get_ids_ow_r ):
+RUn layer-cd:=================================================================================================================
+Layers FACTS: 1
+[ get_ide_from_obj_r ]
+NDS:====== [ get_ide_from_obj_r ]
+---------
+['object']
++++++++++++++++++++++++++++++++++++++
+['$$all$$']
+++++++++++++++++++++++++++++++++++++++
+---------
+---------
+---------
+==========
+def-L: <mdNeural.mdLayer instance at 0x91632ec> ,n: 1
+NDS2:======[ ask-aswer-aderency-product-response ]
+----------
+['purpose']
+++++++++++++++
+['interact.need']
+++++++++++++++
+----------
+----------
+['object']
+++++++++++++++
+['Lucas']
+++++++++++++++
+++++++++++++++
+['Santos']
+++++++++++++++
+----------
+===========
+NDS-LEN: 3 =================
+nds[0].owner: get_ide_from_obj_r
+['object'] <<
+['rename'] <<
+['no_return'] <<
+======================================
+row_Trans from: ['object'] ,to: ['object']
+Run.( vb_rename )->rnm
+Params: [ ['object', 'identificador'] ],[ [] ],[ [] ]
+VB-rename : object , to: identificador
+row_Trans from: ['object'] ,to: ['identificador']
+NEED: 1  FOUND: 1
+RCT->interface: [] 0 [<mdNeural.mdNeuron instance at 0x91636ec>] ->> [['identificador'], 'sins-----', [['Lucas'], 'sins-----'], [['Lucas'], 'sins-----'], [['Santos'], 'sins-----'], [['Santos'], 'sins-----']]
+Call Layout-Code from: fil_get_ids_ow_r
+Prepare to call-inter-rtc(2): []
+Prepare to call layouts-code---{ [] }
+Collect objects: [] []
+layouts-code executed. ---
+aj_return: [[<mdNeural.mdLayer instance at 0x916330c>, <mdNeural.mdLayer instance at 0x916302c>]]
+Identify RCT: process_aderencia_filter
+Start Call RCT: process_aderencia_filter  ,len buff( 1 )
+Cache:[ process_aderencia_filter ]
+Buffer:[ [<mdNeural.mdLayer instance at 0x917b9ac>] ]
+.el: ask-aswer-aderency-product-response
+====================
+All-L:len: 1  ,def: [<mdNeural.mdLayer instance at 0x917b9ac>]
+RCT->facts( process_aderencia_filter ):
+RUn layer-cd:=================================================================================================================
+Layers FACTS: 1
+[ apps_aderencia_with_cenario ]
+Get find-path for : apps_aderencia_with_cenario [ $$all$$@purp-destin@dest@rule ]  Owner: process_aderencia_filter
+FdPath: $$all$$@purp-destin@dest@rule []
+find-path search.3: [['$$all$$', 'purp-destin', 'dest', 'rule']]
+Special get_ontology_s_p: $$all$$ ['$rule-destination-for-objects'] ['purp-destin'] igor.moraes
+Read object(g2): cenario_objs_importantes_ecomm1  uid: 29783
+Read object(g2): cenario_objs_importantes_ecomm2  uid: 29784
+Read object(g2): cenario_objs_importantes_ecomm21  uid: 29785
+Read object(g2): cenario_objs_importantes_ecomm3  uid: 29786
+Read object(g2): cenario_objs_importantes_ecomm4  uid: 29787
+Read object(g2): cenario_objs_importantes_ecomm5  uid: 29788
+Read object(g2): cenario_objs_importantes_ecomm6  uid: 29789
+Read object(g2): cenario_objs_importantes_ecomm7  uid: 29790
+Read object(g2): cenario_objs_importantes_ecomm8  uid: 29791
+Read object(g2): cenario_objs_importantes_ecomm9  uid: 29792
+NDS:====== [ apps_aderencia_with_cenario ]
+---------
+['identificador']
++++++++++++++++++++++++++++++++++++++
+['$$all$$']
+++++++++++++++++++++++++++++++++++++++
+---------
+---------
+==========
+def-L: <mdNeural.mdLayer instance at 0x916548c> ,n: 1
+NDS2:======[ ask-aswer-aderency-product-response ]
+----------
+['purpose']
+++++++++++++++
+['interact.need']
+++++++++++++++
+----------
+----------
+['identificador']
+++++++++++++++
+['Lucas']
+++++++++++++++
+++++++++++++++
+['Santos']
+++++++++++++++
+----------
+===========
+NDS-LEN: 2 =================
+nds[0].owner: apps_aderencia_with_cenario
+['identificador'] <<
+['raw_afininity'] <<
+======================================
+row_Trans from: ['identificador'] ,to: ['identificador']
+Run.( vb_afininity_raw )
+Purpose.1: Lucas Santos
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>interaction.get.action>viagem'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>Senhor', 'defs>dos', 'defs>An\xe9is'] [] igor.moraes
+Ponderate found: [[0, <mdNeural.mdLayer instance at 0x91809ec>]]
+Ponderate min( Lucas Santos[__sugest__] ): 0
+Considere: defs>Senhor
+Considere: defs>dos
+Considere: defs>Anéis
+Ponderate found: 0
+Ponderate min: 0  ,found: 0
+Ponderate found collected: <mdNeural.mdLayer instance at 0x91809ec>
+layers_collect_s: [<mdNeural.mdLayer instance at 0x91809ec>, '']
+Input.process: Lucas Santos[__sugest__]
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>Harry', 'defs>Potter'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>sapato'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>roupa'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>cal\xe7a'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>phone'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>frete'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>livro'] [] igor.moraes
+Ponderate found: []
+get_ontology_ponderate_Caracts.get_ontology_ponderate(): Lucas Santos ['defs>celular'] [] igor.moraes
+Ponderate found: []
+NEED: 1  FOUND: 1
+RCT->interface: [<mdNeural.mdNeuron instance at 0x9163cec>, <mdNeural.mdNeuron instance at 0x914b0ec>, <mdNeural.mdNeuron instance at 0x914bf8c>] 3 [<mdNeural.mdNeuron instance at 0xf72f6f4c>] ->> [['identificador'], 'sins-----', [['Lucas'], 'sins-----'], [['Lucas'], 'sins-----'], [['Santos'], 'sins-----'], [['Santos'], 'sins-----']]
+Call Layout-Code from: process_aderencia_filter
+Prepare to call-inter-rtc(2): [[<mdNeural.mdLayer instance at 0x91809ec>, '']]
+Call-layout-name: Lucas Santos[__sugest__] []
+Prepare to call layouts-code---{ ['apps_collects_products_printresult'] }
+Collect objects: [] [[<mdNeural.mdLayer instance at 0x91809ec>, '']]
+call onto-layout: apps_collects_products_printresult .........................
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+kstermo(2.1): ['Lucas Santos interact-need-detector.', False]
+Layer.post[ Lucas Santos[__sugest__] ]
+Referse.links: [<mdNeural.mdDynamicLayerLink instance at 0x9180d4c>] ===============
+==================================================
+Mount.post!{..}
+POST.MSG:   
+layouts-code executed. ---
+Layers FACTS: 1
+Process call lrs len( 2 )
+Enter.to.call.links.CALL: process_aderencia_filter
+aj_return: [[<mdNeural.mdLayer instance at 0x9165c4c>, <mdNeural.mdLayer instance at 0xf72f6e8c>]]
+nod->process_RCT(ER.1):{ ask-aswer-aderency-product-response interact.need igor.moraes } -> None
+Process->resume_data() [None, None]
+ER---Final-Exec: 0
+=======================================
+=======================================
+=======================================
+--------------------------------------
+layouts-code executed. ---
+Process call lrs len( 1 )
+Enter.to.call.links.CALL: cenario-ask-aswer-common
+aj_return: [[<mdNeural.mdLayer instance at 0x91790ac>, <mdNeural.mdLayer instance at 0x9179b0c>]]
+nod->process_RCT():{ cenario-ask-aswer-common simple-search-ask-aswer igor.moraes } -> <mdNeural.mdLayer instance at 0x917928c>
+LayersC-2: [<mdNeural.mdLayer instance at 0x917f86c>]
+Process->resume_data() [<mdNeural.mdLayer instance at 0x917928c>, <mdNeural.mdLayer instance at 0x917956c>]
+RCT TPS:{ [<mdNeural.mdNeuron instance at 0x9179b6c>, <mdNeural.mdNeuron instance at 0x9179b4c>] }
+RCT TPS(1):{ ['identificador'] }
+RCT TPS(2):{ ['interact.need'] }
+OTH: True
+ER: 0
+End process.Time elapsed:  0.09

@@ -1,0 +1,3 @@
+python /home/mdnetsearc/public_html/Neural/collect_it.py  "igor.moraes"
+python /home/mdnetsearc/public_html/Neural/collect_it2.py "igor.moraes"
+#python collect_it3.py "igor.moraes"   web

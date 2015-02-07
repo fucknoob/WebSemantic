@@ -1,0 +1,4 @@
+#==============================ractionline fz_need_ecomm_ask2 purpose simple-search-ask-aswer2 factname fz_need_lay-1C222
+
+fact fz_need_lay-1C222 fzlayout simple-search-stowrd fzlayout interact.need fzlayout interact.start-s fzlayout interaction.comunic.ask.can fzlayout interact.source.reputacao.certeza fzlayout interact.want fzlayout interact.guess fzlayout interact.can fzlayout interact.info.value fzlayout interaction.have.2 fzlayoutCh simple-search-start fzlayoutCh interact.order fzlayoutCh interact.posse fzlayoutCh interaction.with.2 fzlayoutCh interact.genero fzlayoutCh interact.mode fzlayoutCh interact.composicao fzlayoutCh interact.color #state.event.moment -> momento para efetivacao do negocio fzlayoutCh state.event.moment fzlayoutCh state.event.moment.4 fzlayout state.event.moment.time fzlayout interact.defin
+end

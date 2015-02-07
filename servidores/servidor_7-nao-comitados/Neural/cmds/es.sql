@@ -1,0 +1,1 @@
+dataextract for dataload table fcb_users outfile '/backup/fcb.cmd' outfile '/backup/fcb.dat' 

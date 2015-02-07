@@ -1,0 +1,2 @@
+heroku run python entry_SemaIndexerStage1.py "igor.moraes" "coll-usr-need" "285588943"
+rem heroku run python entry_SemaIndexerStage1.py "igor.moraes" "coll-usr-need" "100003254188103_755621234451603"

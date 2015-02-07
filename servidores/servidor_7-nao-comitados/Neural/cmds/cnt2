@@ -1,0 +1,1 @@
+/opt/sdb/programs/bin/sqlcli -d mindnet -u mind,mind -i /cnt2.sql

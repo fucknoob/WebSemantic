@@ -1,0 +1,1 @@
+/cassandra/bin/sstable2json '/var/lib/cassandra/data/MINDNET/web_cache1/MINDNET-web_cache1-jb-1181-Data.db'  >  /bkp/web_cache1.json & 

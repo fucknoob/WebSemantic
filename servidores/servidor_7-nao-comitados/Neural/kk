@@ -1,0 +1,101 @@
+Connecting to knowledge cluster....
+Connected.
+Process termo: groupon
+UID: 4921
+Start purpose: simple-search-classify --------------------------------------------------------------
+Run-OBJ: cenario-classify-clientes-start
+Run-OBJ: fz_classif_rct
+Layouts-F: ['simple-search-stowrd', 'simple-search-classificacao']
+Layouts-2: []
+UID: 4921
+Process pages:( 1 )
+================================================
+Init Process tree for pages: 1  Start at: 0
+================================================
+Len to purpose: ( simple-search-classify ) 1 ,Termo: groupon
+Process page num: 0
+Start page: 0  of total: 1
+UID: 4921 -----------------------
+Preprocessdata in page: 0  of total: 1  line: 1  of: 45
+Start Identify->pre_process_data():
+Start Identify->pre_process_data->prepare_data():
+Start pre-process->get_ontology()
+End Identify->pre_process_data->prepare_data(): Len(s): 1
+Run.FZ[ simple-class-stop ] ind: 0
+Run.FZ[ simple-class-collect ] ind: 0
+Run.FZ[ simple-class-collect2 ] ind: 0
+Run.FZ[ simple-class-collect3 ] ind: 0
+Run.FZ[ simple-class-collect-past ] ind: 0
+Run.FZ[ simple-class-collect-future ] ind: 0
+Run.FZ[ simple-class-collect-future-condicional ] ind: 0
+Run.FZ[ simple-class-collect4 ] ind: 0
+Run.FZ[ simple-class-stop ] ind: 1
+Run.FZ[ simple-class-collect ] ind: 1
+Run.FZ[ simple-class-collect2 ] ind: 1
+Run.FZ[ simple-class-collect3 ] ind: 1
+Run.FZ[ simple-class-collect-past ] ind: 1
+Run.FZ[ simple-class-collect-future ] ind: 1
+Run.FZ[ simple-class-collect-future-condicional ] ind: 1
+Run.FZ[ simple-class-collect4 ] ind: 1
+Run.FZ[ simple-class-stop ] ind: 2
+Run.FZ[ simple-class-collect ] ind: 2
+Run.FZ[ simple-class-collect2 ] ind: 2
+Run.FZ[ simple-class-collect3 ] ind: 2
+Run.FZ[ simple-class-collect-past ] ind: 2
+Run.FZ[ simple-class-collect-future ] ind: 2
+Run.FZ[ simple-class-collect-future-condicional ] ind: 2
+Run.FZ[ simple-class-collect4 ] ind: 2
+Run.FZ[ simple-class-stop ] ind: 3
+Run.FZ[ simple-class-collect ] ind: 3
+Run.FZ[ simple-class-collect2 ] ind: 3
+Run.FZ[ simple-class-collect3 ] ind: 3
+Run.FZ[ simple-class-collect-past ] ind: 3
+Run.FZ[ simple-class-collect-future ] ind: 3
+Run.FZ[ simple-class-collect-future-condicional ] ind: 3
+Run.FZ[ simple-class-collect4 ] ind: 3
+Run.FZ[ simple-class-stop ] ind: 4
+Run.FZ[ simple-class-collect ] ind: 4
+Run.FZ[ simple-class-collect2 ] ind: 4
+Run.FZ[ simple-class-collect3 ] ind: 4
+Run.FZ[ simple-class-collect-past ] ind: 4
+Run.FZ[ simple-class-collect-future ] ind: 4
+Run.FZ[ simple-class-collect-future-condicional ] ind: 4
+Run.FZ[ simple-class-collect4 ] ind: 4
+Run.FZ[ simple-class-stop ] ind: 5
+Run.FZ[ simple-class-collect ] ind: 5
+Run.FZ[ simple-class-collect2 ] ind: 5
+Run.FZ[ simple-class-collect3 ] ind: 5
+Run.FZ[ simple-class-collect-past ] ind: 5
+Run.FZ[ simple-class-collect-future ] ind: 5
+Run.FZ[ simple-class-collect-future-condicional ] ind: 5
+Run.FZ[ simple-class-collect4 ] ind: 5
+Run.FZ[ simple-class-stop ] ind: 6
+Run.FZ[ simple-class-collect ] ind: 6
+Run.FZ[ simple-class-collect2 ] ind: 6
+Run.FZ[ simple-class-collect3 ] ind: 6
+Run.FZ[ simple-class-collect-past ] ind: 6
+Run.FZ[ simple-class-collect-future ] ind: 6
+Run.FZ[ simple-class-collect-future-condicional ] ind: 6
+Run.FZ[ simple-class-collect4 ] ind: 6
+Run.FZ[ simple-class-stop ] ind: 7
+Run.FZ[ simple-class-collect ] ind: 7
+Run.FZ[ simple-class-collect2 ] ind: 7
+Run.FZ[ simple-class-collect3 ] ind: 7
+Run.FZ[ simple-class-collect-past ] ind: 7
+Run.FZ[ simple-class-collect-future ] ind: 7
+Run.FZ[ simple-class-collect-future-condicional ] ind: 7
+Run.FZ[ simple-class-collect4 ] ind: 7
+Run.FZ[ simple-class-stop ] ind: 8
+Run.FZ[ simple-class-collect ] ind: 8
+Run.FZ[ simple-class-collect2 ] ind: 8
+Run.FZ[ simple-class-collect3 ] ind: 8
+Run.FZ[ simple-class-collect-past ] ind: 8
+Run.FZ[ simple-class-collect-future ] ind: 8
+Run.FZ[ simple-class-collect-future-condicional ] ind: 8
+Run.FZ[ simple-class-collect4 ] ind: 8
+Run.FZ[ simple-class-stop ] ind: 9
+Run.FZ[ simple-class-collect ] ind: 9
+Run.FZ[ simple-class-collect2 ] ind: 9
+Run.FZ[ simple-class-collect3 ] ind: 9
+Run.FZ[ simple-class-collect-past ] ind: 9
+Run.FZ[ simp

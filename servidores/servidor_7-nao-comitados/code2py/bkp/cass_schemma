@@ -1,0 +1,643 @@
+Connected to: "Test Cluster" on 127.0.0.1/9160
+create keyspace MINDNET
+  with placement_strategy = 'SimpleStrategy'
+  and strategy_options = {replication_factor : 1}
+  and durable_writes = true;
+
+use MINDNET;
+
+create column family DATA_BEHAVIOUR_CODE_PY
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family DATA_BEHAVIOUR_PY
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a65746f',
+    validation_class : BytesType,
+    index_name : 'object_objeto',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT3
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a65746f',
+    validation_class : BytesType,
+    index_name : 'object_objeto3',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT3_1_4
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a65746f',
+    validation_class : BytesType,
+    index_name : 'object_objeto3_1_4',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT_DT
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '4c4556',
+    validation_class : BytesType,
+    index_name : 'object_LEV',
+    index_type : 0},
+    {column_name : '646174616368',
+    validation_class : BytesType,
+    index_name : 'datach_index',
+    index_type : 0},
+    {column_name : '746f7069636f',
+    validation_class : BytesType,
+    index_name : 'topico_index',
+    index_type : 0},
+    {column_name : '6f626a656374',
+    validation_class : BytesType,
+    index_name : 'object_index',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT_DT3
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '4c4556',
+    validation_class : BytesType,
+    index_name : 'object_LEV3',
+    index_type : 0},
+    {column_name : '646174616368',
+    validation_class : BytesType,
+    index_name : 'datach_index3',
+    index_type : 0},
+    {column_name : '746f7069636f',
+    validation_class : BytesType,
+    index_name : 'topico_index3',
+    index_type : 0},
+    {column_name : '6f626a656374',
+    validation_class : BytesType,
+    index_name : 'object_index3',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_OBJECT_DT3_1_4
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '4c4556',
+    validation_class : BytesType,
+    index_name : 'object_LEV3_1_4',
+    index_type : 0},
+    {column_name : '646174616368',
+    validation_class : BytesType,
+    index_name : 'datach_index3_1_4',
+    index_type : 0},
+    {column_name : '746f7069636f',
+    validation_class : BytesType,
+    index_name : 'topico_index3_1_4',
+    index_type : 0},
+    {column_name : '6f626a656374',
+    validation_class : BytesType,
+    index_name : 'object_index3_1_4',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_RELACTIONS
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a5f6f726967',
+    validation_class : BytesType,
+    index_name : 'relaction_obj_orig',
+    index_type : 0},
+    {column_name : '6f626a5f64657374',
+    validation_class : BytesType,
+    index_name : 'relaction_oobj_dest',
+    index_type : 0},
+    {column_name : '6f70636f6465',
+    validation_class : BytesType,
+    index_name : 'relaction_opcode',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_RELACTIONS3
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a5f6f726967',
+    validation_class : BytesType,
+    index_name : 'relaction3_obj_orig',
+    index_type : 0},
+    {column_name : '6f626a5f64657374',
+    validation_class : BytesType,
+    index_name : 'relaction3_obj_dest',
+    index_type : 0},
+    {column_name : '6f70636f6465',
+    validation_class : BytesType,
+    index_name : 'relaction3_opcode',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family SEMANTIC_RELACTIONS3_1_4
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6f626a5f6f726967',
+    validation_class : BytesType,
+    index_name : 'relaction3_1_4_obj_orig',
+    index_type : 0},
+    {column_name : '6f626a5f64657374',
+    validation_class : BytesType,
+    index_name : 'relaction3_1_4_obj_dest',
+    index_type : 0},
+    {column_name : '6f70636f6465',
+    validation_class : BytesType,
+    index_name : 'relaction3_1_4_opcode',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family cache_links
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 864000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '494e4445584544',
+    validation_class : AsciiType,
+    index_name : 'cache_links_494e4445584544_idx',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family cache_products
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 864000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '494e4445584544',
+    validation_class : AsciiType,
+    index_name : 'cache_products_494e4445584544_idx',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fuzzy_store
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '6c61796f75745f6f6e746f',
+    validation_class : BytesType,
+    index_name : 'fuzzy_store_layout_onto',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fz_arround_points
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fz_store_defs
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fz_store_pref
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fz_store_refer
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family fz_store_sufix
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family knowledge_manager
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 1000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family web_cache3
+  with column_type = 'Standard'
+  and comparator = 'BytesType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'BytesType'
+  and read_repair_chance = 0.1
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 864000
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = 'NONE'
+  and column_metadata = [
+    {column_name : '696e6465786564',
+    validation_class : AsciiType,
+    index_name : 'web_cache3_696e6465786564_idx',
+    index_type : 0}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+
+
+create keyspace system
+  with placement_strategy = 'LocalStrategy'
+  and durable_writes = true;
+
+use system;
+
+create column family IndexInfo
+  with column_type = 'Standard'
+  and comparator = 'UTF8Type'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'UTF8Type'
+  and read_repair_chance = 0.0
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 0
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = '99.0PERCENTILE'
+  and bloom_filter_fp_chance = 0.01
+  and comment = 'indexes that have been completed'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family NodeIdInfo
+  with column_type = 'Standard'
+  and comparator = 'TimeUUIDType'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'UTF8Type'
+  and read_repair_chance = 0.0
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 0
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = '99.0PERCENTILE'
+  and bloom_filter_fp_chance = 0.01
+  and comment = 'counter node IDs'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family hints
+  with column_type = 'Standard'
+  and comparator = 'CompositeType(org.apache.cassandra.db.marshal.TimeUUIDType,org.apache.cassandra.db.marshal.Int32Type)'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'UUIDType'
+  and read_repair_chance = 0.0
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 0
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = '99.0PERCENTILE'
+  and bloom_filter_fp_chance = 0.01
+  and compaction_strategy_options = {'enabled' : 'false'}
+  and comment = 'hints awaiting delivery'
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+create column family schema_keyspaces
+  with column_type = 'Standard'
+  and comparator = 'UTF8Type'
+  and default_validation_class = 'BytesType'
+  and key_validation_class = 'UTF8Type'
+  and read_repair_chance = 0.0
+  and dclocal_read_repair_chance = 0.0
+  and populate_io_cache_on_flush = false
+  and gc_grace = 8640
+  and min_compaction_threshold = 4
+  and max_compaction_threshold = 32
+  and replicate_on_write = true
+  and compaction_strategy = 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy'
+  and caching = 'KEYS_ONLY'
+  and default_time_to_live = 0
+  and speculative_retry = '99.0PERCENTILE'
+  and bloom_filter_fp_chance = 0.01
+  and comment = 'keyspace definitions'
+  and column_metadata = [
+    {column_name : 'strategy_options',
+    validation_class : UTF8Type},
+    {column_name : 'durable_writes',
+    validation_class : BooleanType},
+    {column_name : 'strategy_class',
+    validation_class : UTF8Type}]
+  and compression_options = {'sstable_compression' : 'org.apache.cassandra.io.compress.LZ4Compressor'}
+  and index_interval = 128;
+
+
+
+create keyspace system_traces
+  with placement_strategy = 'SimpleStrategy'
+  and strategy_options = {replication_factor : 2}
+  and durable_writes = true;
+
+use system_traces;
+
+
+

@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=/Neural:${LD_LIBRARY_PATH}
+python32 Zeus.py 
